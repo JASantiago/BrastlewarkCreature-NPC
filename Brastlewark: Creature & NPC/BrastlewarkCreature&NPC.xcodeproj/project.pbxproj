@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0FA1D6247830A600AFEBD0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F0FA1DA247830A600AFEBD0 /* Localizable.strings */; };
+		6F10A0862475A2D3005F40ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10A0852475A2D3005F40ED /* AppDelegate.swift */; };
+		6F10A08A2475A2D3005F40ED /* GnomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10A0892475A2D3005F40ED /* GnomeListViewController.swift */; };
+		6F10A08D2475A2D3005F40ED /* GnomeList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F10A08B2475A2D3005F40ED /* GnomeList.storyboard */; };
+		6F10A08F2475A2D7005F40ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F10A08E2475A2D7005F40ED /* Assets.xcassets */; };
+		6F10A0922475A2D7005F40ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F10A0902475A2D7005F40ED /* LaunchScreen.storyboard */; };
+		6F10A0BB2475A5DE005F40ED /* GnomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10A0BA2475A5DE005F40ED /* GnomeModel.swift */; };
+		6F10A0C02475AE32005F40ED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10A0BF2475AE32005F40ED /* NetworkManager.swift */; };
+		6F219C932475BFD2002C765A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F219C922475BFD2002C765A /* SceneDelegate.swift */; };
+		6F6AD8B92475EB0B009F7B52 /* GnomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AD8B72475EB0B009F7B52 /* GnomeCell.swift */; };
+		6F6AD8C4247604EB009F7B52 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AD8C3247604EB009F7B52 /* ImageCacheManager.swift */; };
+		6F6AD8C824761E24009F7B52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AD8C724761E24009F7B52 /* Constants.swift */; };
+		6F6AD8CC2476F550009F7B52 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AD8CB2476F550009F7B52 /* AlertManager.swift */; };
+		6F6AD8D12476FAA5009F7B52 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6AD8D02476FAA5009F7B52 /* UIView.swift */; };
+		6F86306E2478D9AE002DB2AA /* BrastlewarkCreatureNPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8630642478D8B5002DB2AA /* BrastlewarkCreatureNPCTests.swift */; };
+		6F8630762478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8630752478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.swift */; };
+		6F9657BD24797AC700C07622 /* GnomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9657BF24797AC700C07622 /* GnomeCell.xib */; };
+		6FB91BE3247898C000DDD3B2 /* GnomeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB91BE2247898C000DDD3B2 /* GnomeListPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F8630672478D8B5002DB2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F10A07A2475A2D3005F40ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F10A0812475A2D3005F40ED;
+			remoteInfo = "BrastlewarkCreature&NPC";
+		};
+		6F8630782478E6A0002DB2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F10A07A2475A2D3005F40ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F10A0812475A2D3005F40ED;
+			remoteInfo = "BrastlewarkCreature&NPC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F0FA1D9247830A600AFEBD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F10A0822475A2D3005F40ED /* BrastlewarkCreature&NPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BrastlewarkCreature&NPC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F10A0852475A2D3005F40ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F10A0892475A2D3005F40ED /* GnomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeListViewController.swift; sourceTree = "<group>"; };
+		6F10A08C2475A2D3005F40ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GnomeList.storyboard; sourceTree = "<group>"; };
+		6F10A08E2475A2D7005F40ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F10A0912475A2D7005F40ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F10A0932475A2D7005F40ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F10A0BA2475A5DE005F40ED /* GnomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeModel.swift; sourceTree = "<group>"; };
+		6F10A0BF2475AE32005F40ED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6F219C922475BFD2002C765A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "BrastlewarkCreature&NPC/SceneDelegate.swift"; sourceTree = SOURCE_ROOT; };
+		6F6AD8B72475EB0B009F7B52 /* GnomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeCell.swift; sourceTree = "<group>"; };
+		6F6AD8C3247604EB009F7B52 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		6F6AD8C724761E24009F7B52 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F6AD8CB2476F550009F7B52 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		6F6AD8D02476FAA5009F7B52 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		6F8630622478D8B5002DB2AA /* BrastlewarkCreatureNPCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrastlewarkCreatureNPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8630642478D8B5002DB2AA /* BrastlewarkCreatureNPCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastlewarkCreatureNPCTests.swift; sourceTree = "<group>"; };
+		6F8630662478D8B5002DB2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8630732478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrastlewarkCreatureNPCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8630752478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastlewarkCreatureNPCUITests.swift; sourceTree = "<group>"; };
+		6F8630772478E6A0002DB2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9657BE24797AC700C07622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GnomeCell.xib; sourceTree = "<group>"; };
+		6F9657C124797AD000C07622 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GnomeCell.strings; sourceTree = "<group>"; };
+		6FB91BE2247898C000DDD3B2 /* GnomeListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeListPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F10A07F2475A2D3005F40ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F86305F2478D8B5002DB2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8630702478E6A0002DB2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F10A0792475A2D2005F40ED = {
+			isa = PBXGroup;
+			children = (
+				6F10A0842475A2D3005F40ED /* BrastlewarkCreature&NPC */,
+				6F8630632478D8B5002DB2AA /* BrastlewarkCreatureNPCTests */,
+				6F8630742478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests */,
+				6F10A0832475A2D3005F40ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F10A0832475A2D3005F40ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F10A0822475A2D3005F40ED /* BrastlewarkCreature&NPC.app */,
+				6F8630622478D8B5002DB2AA /* BrastlewarkCreatureNPCTests.xctest */,
+				6F8630732478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F10A0842475A2D3005F40ED /* BrastlewarkCreature&NPC */ = {
+			isa = PBXGroup;
+			children = (
+				6F6AD8CF2476FA70009F7B52 /* Extensions */,
+				6F10A0BE2475AE23005F40ED /* Services */,
+				6F10A0B62475A410005F40ED /* Modules */,
+				6F10A0B52475A37C005F40ED /* SupportFiles */,
+				6F10A0932475A2D7005F40ED /* Info.plist */,
+			);
+			path = "BrastlewarkCreature&NPC";
+			sourceTree = "<group>";
+		};
+		6F10A0B52475A37C005F40ED /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6F219C922475BFD2002C765A /* SceneDelegate.swift */,
+				6F10A0902475A2D7005F40ED /* LaunchScreen.storyboard */,
+				6F10A08E2475A2D7005F40ED /* Assets.xcassets */,
+				6F10A0852475A2D3005F40ED /* AppDelegate.swift */,
+				6F6AD8C724761E24009F7B52 /* Constants.swift */,
+				6F0FA1DA247830A600AFEBD0 /* Localizable.strings */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		6F10A0B62475A410005F40ED /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6F10A0B72475A41B005F40ED /* Model */,
+				6F10A0B82475A425005F40ED /* View */,
+				6FB91BE1247898A400DDD3B2 /* Presenter */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6F10A0B72475A41B005F40ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F10A0BA2475A5DE005F40ED /* GnomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F10A0B82475A425005F40ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F6AD8B62475EAE3009F7B52 /* GnomeCell */,
+				6F10A0892475A2D3005F40ED /* GnomeListViewController.swift */,
+				6F10A08B2475A2D3005F40ED /* GnomeList.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F10A0BE2475AE23005F40ED /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6F10A0BF2475AE32005F40ED /* NetworkManager.swift */,
+				6F6AD8C3247604EB009F7B52 /* ImageCacheManager.swift */,
+				6F6AD8CB2476F550009F7B52 /* AlertManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6F6AD8B62475EAE3009F7B52 /* GnomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F6AD8B72475EB0B009F7B52 /* GnomeCell.swift */,
+				6F9657BF24797AC700C07622 /* GnomeCell.xib */,
+			);
+			path = GnomeCell;
+			sourceTree = "<group>";
+		};
+		6F6AD8CF2476FA70009F7B52 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F6AD8D02476FAA5009F7B52 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6F8630632478D8B5002DB2AA /* BrastlewarkCreatureNPCTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F8630642478D8B5002DB2AA /* BrastlewarkCreatureNPCTests.swift */,
+				6F8630662478D8B5002DB2AA /* Info.plist */,
+			);
+			path = BrastlewarkCreatureNPCTests;
+			sourceTree = "<group>";
+		};
+		6F8630742478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F8630752478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.swift */,
+				6F8630772478E6A0002DB2AA /* Info.plist */,
+			);
+			path = BrastlewarkCreatureNPCUITests;
+			sourceTree = "<group>";
+		};
+		6FB91BE1247898A400DDD3B2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6FB91BE2247898C000DDD3B2 /* GnomeListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F10A0812475A2D3005F40ED /* BrastlewarkCreature&NPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F10A0AC2475A2D7005F40ED /* Build configuration list for PBXNativeTarget "BrastlewarkCreature&NPC" */;
+			buildPhases = (
+				6F10A07E2475A2D3005F40ED /* Sources */,
+				6F10A07F2475A2D3005F40ED /* Frameworks */,
+				6F10A0802475A2D3005F40ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BrastlewarkCreature&NPC";
+			productName = "Brastlewark: Creature & NPC";
+			productReference = 6F10A0822475A2D3005F40ED /* BrastlewarkCreature&NPC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F8630612478D8B5002DB2AA /* BrastlewarkCreatureNPCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8630692478D8B5002DB2AA /* Build configuration list for PBXNativeTarget "BrastlewarkCreatureNPCTests" */;
+			buildPhases = (
+				6F86305E2478D8B5002DB2AA /* Sources */,
+				6F86305F2478D8B5002DB2AA /* Frameworks */,
+				6F8630602478D8B5002DB2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F8630682478D8B5002DB2AA /* PBXTargetDependency */,
+			);
+			name = BrastlewarkCreatureNPCTests;
+			productName = BrastlewarkCreatureNPCTests;
+			productReference = 6F8630622478D8B5002DB2AA /* BrastlewarkCreatureNPCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F8630722478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F86307A2478E6A0002DB2AA /* Build configuration list for PBXNativeTarget "BrastlewarkCreatureNPCUITests" */;
+			buildPhases = (
+				6F86306F2478E6A0002DB2AA /* Sources */,
+				6F8630702478E6A0002DB2AA /* Frameworks */,
+				6F8630712478E6A0002DB2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F8630792478E6A0002DB2AA /* PBXTargetDependency */,
+			);
+			name = BrastlewarkCreatureNPCUITests;
+			productName = BrastlewarkCreatureNPCUITests;
+			productReference = 6F8630732478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F10A07A2475A2D3005F40ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = " Jose  Santiago";
+				TargetAttributes = {
+					6F10A0812475A2D3005F40ED = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					6F8630612478D8B5002DB2AA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 6F10A0812475A2D3005F40ED;
+					};
+					6F8630722478E6A0002DB2AA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 6F10A0812475A2D3005F40ED;
+					};
+				};
+			};
+			buildConfigurationList = 6F10A07D2475A2D3005F40ED /* Build configuration list for PBXProject "BrastlewarkCreature&NPC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F10A0792475A2D2005F40ED;
+			productRefGroup = 6F10A0832475A2D3005F40ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F10A0812475A2D3005F40ED /* BrastlewarkCreature&NPC */,
+				6F8630612478D8B5002DB2AA /* BrastlewarkCreatureNPCTests */,
+				6F8630722478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F10A0802475A2D3005F40ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0FA1D6247830A600AFEBD0 /* Localizable.strings in Resources */,
+				6F9657BD24797AC700C07622 /* GnomeCell.xib in Resources */,
+				6F10A0922475A2D7005F40ED /* LaunchScreen.storyboard in Resources */,
+				6F10A08F2475A2D7005F40ED /* Assets.xcassets in Resources */,
+				6F10A08D2475A2D3005F40ED /* GnomeList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8630602478D8B5002DB2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8630712478E6A0002DB2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F10A07E2475A2D3005F40ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F219C932475BFD2002C765A /* SceneDelegate.swift in Sources */,
+				6FB91BE3247898C000DDD3B2 /* GnomeListPresenter.swift in Sources */,
+				6F10A0C02475AE32005F40ED /* NetworkManager.swift in Sources */,
+				6F6AD8D12476FAA5009F7B52 /* UIView.swift in Sources */,
+				6F6AD8CC2476F550009F7B52 /* AlertManager.swift in Sources */,
+				6F10A08A2475A2D3005F40ED /* GnomeListViewController.swift in Sources */,
+				6F10A0BB2475A5DE005F40ED /* GnomeModel.swift in Sources */,
+				6F6AD8C4247604EB009F7B52 /* ImageCacheManager.swift in Sources */,
+				6F6AD8B92475EB0B009F7B52 /* GnomeCell.swift in Sources */,
+				6F10A0862475A2D3005F40ED /* AppDelegate.swift in Sources */,
+				6F6AD8C824761E24009F7B52 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F86305E2478D8B5002DB2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F86306E2478D9AE002DB2AA /* BrastlewarkCreatureNPCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F86306F2478E6A0002DB2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8630762478E6A0002DB2AA /* BrastlewarkCreatureNPCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F8630682478D8B5002DB2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F10A0812475A2D3005F40ED /* BrastlewarkCreature&NPC */;
+			targetProxy = 6F8630672478D8B5002DB2AA /* PBXContainerItemProxy */;
+		};
+		6F8630792478E6A0002DB2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F10A0812475A2D3005F40ED /* BrastlewarkCreature&NPC */;
+			targetProxy = 6F8630782478E6A0002DB2AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F0FA1DA247830A600AFEBD0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F0FA1D9247830A600AFEBD0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6F10A08B2475A2D3005F40ED /* GnomeList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F10A08C2475A2D3005F40ED /* Base */,
+			);
+			name = GnomeList.storyboard;
+			sourceTree = "<group>";
+		};
+		6F10A0902475A2D7005F40ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F10A0912475A2D7005F40ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6F9657BF24797AC700C07622 /* GnomeCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9657BE24797AC700C07622 /* Base */,
+				6F9657C124797AD000C07622 /* en */,
+			);
+			name = GnomeCell.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F10A0AA2475A2D7005F40ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F10A0AB2475A2D7005F40ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F10A0AD2475A2D7005F40ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU5UU3CA89;
+				INFOPLIST_FILE = "BrastlewarkCreature&NPC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josesantiago.BrastlewarkCreature---NPC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F10A0AE2475A2D7005F40ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU5UU3CA89;
+				INFOPLIST_FILE = "BrastlewarkCreature&NPC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josesantiago.BrastlewarkCreature---NPC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F86306A2478D8B5002DB2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU5UU3CA89;
+				INFOPLIST_FILE = BrastlewarkCreatureNPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josesantiago.BrastlewarkCreatureNPCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrastlewarkCreature&NPC.app/BrastlewarkCreature&NPC";
+			};
+			name = Debug;
+		};
+		6F86306B2478D8B5002DB2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU5UU3CA89;
+				INFOPLIST_FILE = BrastlewarkCreatureNPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josesantiago.BrastlewarkCreatureNPCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrastlewarkCreature&NPC.app/BrastlewarkCreature&NPC";
+			};
+			name = Release;
+		};
+		6F86307B2478E6A0002DB2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU5UU3CA89;
+				INFOPLIST_FILE = BrastlewarkCreatureNPCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josesantiago.BrastlewarkCreatureNPCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BrastlewarkCreature&NPC";
+			};
+			name = Debug;
+		};
+		6F86307C2478E6A0002DB2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RU5UU3CA89;
+				INFOPLIST_FILE = BrastlewarkCreatureNPCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josesantiago.BrastlewarkCreatureNPCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "BrastlewarkCreature&NPC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F10A07D2475A2D3005F40ED /* Build configuration list for PBXProject "BrastlewarkCreature&NPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F10A0AA2475A2D7005F40ED /* Debug */,
+				6F10A0AB2475A2D7005F40ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F10A0AC2475A2D7005F40ED /* Build configuration list for PBXNativeTarget "BrastlewarkCreature&NPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F10A0AD2475A2D7005F40ED /* Debug */,
+				6F10A0AE2475A2D7005F40ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8630692478D8B5002DB2AA /* Build configuration list for PBXNativeTarget "BrastlewarkCreatureNPCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F86306A2478D8B5002DB2AA /* Debug */,
+				6F86306B2478D8B5002DB2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F86307A2478E6A0002DB2AA /* Build configuration list for PBXNativeTarget "BrastlewarkCreatureNPCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F86307B2478E6A0002DB2AA /* Debug */,
+				6F86307C2478E6A0002DB2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F10A07A2475A2D3005F40ED /* Project object */;
+}

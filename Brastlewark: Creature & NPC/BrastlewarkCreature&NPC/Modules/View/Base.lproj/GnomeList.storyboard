@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gnome List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GnomeListViewController" customModule="BrastlewarkCreature_NPC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="W9E-2t-Urd">
+                                <rect key="frame" x="0.0" y="100" width="414" height="796"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Iu-yS-HRD" userLabel="NavBar">
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                                <subviews>
+                                    <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="0fp-yq-Tq0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </searchBar>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="0fp-yq-Tq0" firstAttribute="centerY" secondItem="0Iu-yS-HRD" secondAttribute="centerY" id="Vor-9u-2uB"/>
+                                    <constraint firstItem="0fp-yq-Tq0" firstAttribute="leading" secondItem="0Iu-yS-HRD" secondAttribute="leading" id="cHw-fB-OnO"/>
+                                    <constraint firstAttribute="trailing" secondItem="0fp-yq-Tq0" secondAttribute="trailing" id="enf-oH-lZ1"/>
+                                    <constraint firstAttribute="height" constant="56" id="kyG-QI-gpO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qUi-Up-pLq">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gnome" translatesAutoresizingMaskIntoConstraints="NO" id="tEP-Ew-Qwt">
+                                        <rect key="frame" x="124" y="210" width="166" height="297"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="tEP-Ew-Qwt" secondAttribute="height" multiplier="112:201" id="T4D-it-Rvb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brastlewark: Creature &amp; NPC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9x-gz-Ao9">
+                                        <rect key="frame" x="82" y="547" width="250" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.27843137254901962" green="0.086274509803921567" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tEP-Ew-Qwt" firstAttribute="centerX" secondItem="qUi-Up-pLq" secondAttribute="centerX" id="6YT-cd-bq0"/>
+                                    <constraint firstItem="tEP-Ew-Qwt" firstAttribute="centerY" secondItem="qUi-Up-pLq" secondAttribute="centerY" multiplier="0.8" id="85t-RI-MdH"/>
+                                    <constraint firstItem="v9x-gz-Ao9" firstAttribute="top" secondItem="tEP-Ew-Qwt" secondAttribute="bottom" constant="40" id="daE-W9-Ugl"/>
+                                    <constraint firstItem="v9x-gz-Ao9" firstAttribute="centerX" secondItem="qUi-Up-pLq" secondAttribute="centerX" id="tgT-5U-Zb0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qUi-Up-pLq" secondAttribute="bottom" id="9t2-zq-Jg8"/>
+                            <constraint firstAttribute="trailing" secondItem="0Iu-yS-HRD" secondAttribute="trailing" id="EbK-Nl-qYZ"/>
+                            <constraint firstItem="W9E-2t-Urd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Nro-NF-IKS"/>
+                            <constraint firstAttribute="bottom" secondItem="W9E-2t-Urd" secondAttribute="bottom" id="PVm-hy-hmY"/>
+                            <constraint firstItem="0Iu-yS-HRD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q9z-iT-G6H"/>
+                            <constraint firstItem="W9E-2t-Urd" firstAttribute="top" secondItem="0Iu-yS-HRD" secondAttribute="bottom" id="SIe-Cl-uqF"/>
+                            <constraint firstItem="0Iu-yS-HRD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="U7Z-Yi-Wbb"/>
+                            <constraint firstItem="qUi-Up-pLq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Xa5-rY-4HB"/>
+                            <constraint firstItem="qUi-Up-pLq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="buf-pe-aml"/>
+                            <constraint firstAttribute="trailing" secondItem="W9E-2t-Urd" secondAttribute="trailing" id="vbb-3B-53A"/>
+                            <constraint firstAttribute="trailing" secondItem="qUi-Up-pLq" secondAttribute="trailing" id="wC8-uy-7Js"/>
+                            <constraint firstItem="tEP-Ew-Qwt" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="zdY-ck-qxp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="loadingView" destination="qUi-Up-pLq" id="HeK-hb-fYD"/>
+                        <outlet property="searchBar" destination="0fp-yq-Tq0" id="iAw-QN-Qke"/>
+                        <outlet property="tableView" destination="W9E-2t-Urd" id="BW7-yZ-Qmr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gnome" width="112" height="201"/>
+    </resources>
+</document>

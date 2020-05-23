@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  BrastlewarkCreature&NPC
+
+  Created by  Jose  Santiago on 5/22/20.
+  Copyright © 2020  Jose  Santiago. All rights reserved.
+*/
+
+"Friends" = "Friends";
+"errorMessage" = "Shael vuk!, an error ocurried";
+"Ok" = "Ok";
+"Try Again" = "Try Again";
