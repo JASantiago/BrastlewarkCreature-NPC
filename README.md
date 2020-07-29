@@ -3,4 +3,4 @@ This app is a "Contacts" like app, where you can browse and get info from the na
 
 The perfect companion app for those in search for adventures in the area.
 
-Good look and may the RNG ever in your favor... if the DM starts laughing, it's too late.
+Good luck and may the RNG ever in your favor... if the DM starts laughing, it's too late.
